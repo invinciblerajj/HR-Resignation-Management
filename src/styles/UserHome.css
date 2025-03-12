@@ -1,0 +1,146 @@
+.dashboard-content {
+    flex: 1;  /* Allows it to take remaining space */
+    width: 80%;  /* Adjust width as needed */
+    max-width: 1000px;  /* Set a max width if needed */
+    padding: 20px;
+    border: 200px solid red;
+    height: 100vh;
+}
+.ubox2 {
+    width: 990px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+  }
+  
+  /* Quick Stats */
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0; 
+    gap: 20px;
+}
+  
+  .stat-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    box-shadow: 3px 4px 2px  rgba(152, 118, 245, 0.315);
+    transition: 0.2s ease-out;
+  }
+  .stat-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .stat-card h3 {
+    font-size: 22px;
+    color: #0044cc;
+  }
+  
+  /* Time and Weather Container */
+  /* Container for Date & Weather */
+.con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+/* Hover Effect */
+.con:hover {
+  transform: scale(1.02);
+}
+
+/* Date Box */
+.date-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Calendar Icon */
+.date-box i {
+  font-size: 30px;
+  color: #0044cc;
+}
+
+/* Weather Box */
+.weather-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Weather Title */
+.weather h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #0044cc;
+}
+
+/* Weather Details */
+.weather-details {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+/* Weather Item (Temperature & Humidity) */
+.weather-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Weather Icons */
+.weather-item i {
+  font-size: 24px;
+  color: #ff9900;
+}
+
+  
+  /* Announcements */
+  .announcements {
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .announcements h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .announcements ul {
+    padding: 0;
+  }
+  
+  .announcements li {
+    list-style-type: none;
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .announcements li:last-child {
+    border-bottom: none;
+  }

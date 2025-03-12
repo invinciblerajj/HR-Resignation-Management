@@ -1,0 +1,117 @@
+/* User Registration Container */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f4f4f4;
+}
+  
+/* User Registration Box */
+.register-box {
+    display: flex;
+    width: 750px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+  
+/* Left Section */
+.register-left {
+    flex: 2;
+    background: #3b82f6; /* Blue Background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+    transition: flex 0.5s ease-in-out;
+}
+
+.register-left h2 {
+    color: white;
+}
+
+.register-left p {
+    font-size: 15px;
+    margin-top: 50px;
+}
+
+.register-left a {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+  
+/* Right Section */
+.register-right {
+    flex: 1;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: all 0.5s ease-in-out;
+}
+  
+/* Hover Effect - Shrink Left Box */
+.register-box:hover .register-left {
+    flex: 0.7;  /* Reduce width of left section */
+}
+
+.register-box:hover .register-left p {
+    font-size: 12px;
+}
+  
+.register-box:hover .register-right {
+    flex: 1.3; /* Expand right section */
+}
+
+/* Registration Form */
+.register-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+  
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+  
+.register-form label {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+}
+  
+.register-form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Employee Code (Read-Only) */
+.emp-code {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+    cursor: not-allowed;
+}
+  
+.register-form button {
+    padding: 10px;
+    background: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+  
+.register-form button:hover {
+    background: #2563eb;
+}

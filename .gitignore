@@ -1,0 +1,22 @@
+# Node.js Dependencies
+node_modules/
+npm-debug.log
+.env
+
+# Logs
+logs/
+*.log
+debug.log
+
+# Editor & OS Files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+# Build Files
+dist/
+build/
+
+# Database
+database.sqlite
